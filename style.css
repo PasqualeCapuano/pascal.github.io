@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto&display=swap');
+*{
+    margin: 0px;
+}
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage{
+    background-color: black;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.otherPage{
+    background-color: white;
+}
+
+
+.navBarHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 150px;
+}
+
+.menuHome{
+    padding: 0px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.listHome{
+    display: inline-block;
+    text-decoration: none;
+    justify-items: space-around;
+    opacity: 0.6;
+}
+.listHome:hover{
+    font-weight: bold;
+
+    opacity: 1;
+}
+
+.menuPage{
+    padding: 0px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.listPage{
+    display: inline-block;
+    text-decoration: none;
+    justify-items: space-around;
+    opacity: 0.6;
+
+}
+
+.listPage:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.pageLink{
+    text-decoration: none;
+    color: black;
+    font-family: "PT Mono";
+}
+
+.homeLink{
+    text-decoration: none;
+    color: white;
+    font-family: "PT Mono";
+}
+
+.pageTitle{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "PT Mono";
+
+}
+
+.pageSubtitle{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "PT Mono";
+}
+
+
+.formInput{
+    width: 350px;
+    margin: 10px;
+    font-family: "PT mono";
+}
+
+.icon{
+    height: 15px;
+    margin-right: 15px;
+}
+
+.iconSocial{
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.iconSocial:hover{
+    opacity: 1;
+}
+
+.formInfo{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formClass{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoExtended{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+p{
+    font-family: "PT Mono";
+    font-size: 12px;
+}
+
+.infoClass{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.follow{
+    font-size: 22px;
+    font-family: "PT Mono";
+}
+
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    background: black;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFooterLove{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+.footerHome{
+    margin-top: auto;
+    display: flex;
+    background: white;
+    height: 30px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFooterLoveHome{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    color: black;
+}
+
+
+.sendButton{
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    font-family: "PT Mono";
+    background: white;
+}
+
+.sendButton:hover{
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aboutMe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutMeSkills{
+    margin: 10px 0 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.bio{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    line-height: 1.8
+}
+
+.bioPhoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 430px;
+    margin: 20px;
+}
+
+.titleBio{
+    font-size: 25px;
+    font-family: "PT Mono";
+}
+
+.titleBioSkills{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "PT Mono";
+}
+
+.pBio{
+    font-family: "PT Mono";
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.skill{
+    margin-bottom: 10px;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    width: 100%;
+    height: 100%;
+    max-width: 435px;
+    margin: 15px;
+  }
+  
+  .skill-name {
+    font-family: "PT Mono";
+    font-size: 11px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+  .skill-bar {
+    margin-top: 10px;
+    height: 14px;
+    background: #d1d1d1;
+    border-radius: 3px;
+  }
+  
+  .skill-per {
+    height: 14px;
+    background: #000000;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2s 1;
+  }
+  
+  .skill-per::before {
+    font-family: "PT Mono";
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 10px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  @keyframes fillBars {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .downloadResume{
+    color: black;
+    background: white;
+    width: 150px;
+    height: 50px;
+  }
+
+  .downloadResume:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+  }
